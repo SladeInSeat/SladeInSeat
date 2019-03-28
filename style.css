@@ -1,0 +1,31 @@
+.body{
+    margin: 0px;
+}
+.header{
+    height: 15vh;
+    background: grey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.row_container{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: blueviolet;
+    border: 1px black solid;
+}
+.contentBox{
+    border: 2px blue solid;
+    flex: 3 1 auto;
+}
+.img{
+    height: 187px;
+}
+.footer{
+    height: 10vh;
+    background: green;
+}
