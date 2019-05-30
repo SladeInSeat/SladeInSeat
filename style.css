@@ -21,7 +21,7 @@
     flex-shrink: 1;
     flex-basis: 0;
     height: 15vh;
-    background: white;
+    background: #D1E4F5;
 }
 .header{
     display: flex;
@@ -32,7 +32,7 @@
     min-width: 100vw;
     flex-grow: 12;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 1;
     min-height: 15vh;
     background: #D1E4F5;
     position: fixed;
@@ -50,7 +50,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    background: pink;
+    background: #D1E4F5;
 }
 
 .halfrow{
@@ -63,8 +63,8 @@
     min-height: 20vh;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
-    background: pink;
+    flex-basis: 1;
+    background: #D1E4F5;
 }
 
 .logo{
@@ -77,7 +77,7 @@
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0;
-    height: 15vh;
+    min-height: 15vh;
     background: #D1E4F5;
 }
 
@@ -90,7 +90,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 15vw;
-    height: 15vh;
+    min-height: 15vh;
   }
 
   .headshot{
@@ -101,7 +101,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 15vw;
-    height: 25vh;
+    min-height: 25vh;
     border-radius: 25%;
     border: 2px solid black;
   }
@@ -134,7 +134,7 @@
     flex-grow: 12;
     flex-shrink: 1;
     flex-basis: 1;
-    height: 8vh;
+    min-height: 8vh;
     background: #D1E4F5; 
 }
 
@@ -149,7 +149,7 @@
     flex-grow: 12;
     flex-shrink: 3;
     flex-basis: 1;
-    height: 8vh;
+    min-height: 8vh;
     padding: 5px;
     background: #D1E4F5; 
 }
@@ -170,8 +170,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     flex-shrink: 1;
-    padding: 5px 0px 5px 40px;
-    margin: 3px 0px 3px 20px;
+    padding: 5px 15px 5px 20px;
+    margin: 3px 15px 3px 10px;
     font-size: 3em;
     -webkit-text-fill-color:#476E91;
     -webkit-text-stroke-width: 2px;
@@ -260,7 +260,7 @@
     flex-shrink: 1;
     min-height: 30vh;
     width: 65vw;
-    flex-basis: 0;
+    flex-basis: 1;
     flex-shrink: 1;
     margin: 10px;
     padding: 20px;
