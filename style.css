@@ -30,7 +30,7 @@
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    min-width: 100vw;
     flex-grow: 12;
     flex-shrink: 1;
     flex-basis: 1;
@@ -90,7 +90,7 @@
     flex-basis: 1;
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 15vw;
+    min-width: 15vw;
     min-height: 15vh;
   }
 
@@ -108,7 +108,7 @@
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0;
-    width: 15vw;
+    min-width: 15vw;
     min-height: 45vh;
   }
 
@@ -117,7 +117,7 @@
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0;
-    width: 15vw;
+    min-width: 15vw;
     min-height: 20vh;
   }
 
@@ -268,7 +268,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     min-height: 30vh;
-    width: 65vw;
+    min-width: 65vw;
     flex-basis: 1;
     margin: 10px;
     padding: 20px;
@@ -280,6 +280,7 @@
 .cardTitle{
     font-size: 2em;
     font-weight: 400;
+    min-width: 25vw;
     /* -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(157, 155, 151); */
@@ -292,6 +293,8 @@
     align-self: flex-start;
     justify-content: center;
     flex-basis: 1;
+    flex-shrink: 1;
+    min-width: 35vw;
     margin: 10px;
     padding: 10px;
     font-size: 1.5em;
@@ -300,9 +303,11 @@
 .cardImage{
     display: flex;
     flex-basis: 1;
+    flex-shrink: 1;
     margin: 10px;
     padding: 10px;
-    min-width: 300px;
+    /* min-width: 300px; */
+    min-width: 30vw;
     border-radius: 5%;
 
 }
@@ -324,16 +329,20 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     min-height: 8vh;
     flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 35vw;
 }
 
 .button{
     cursor: pointer;
     margin: 5px 15px;
     background-color: #D1E4F5;
+    min-width: 10vw;
     
 }
 
