@@ -50,7 +50,7 @@
     min-height: 40vh;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 1;
     background: #D1E4F5;
 }
 
@@ -87,8 +87,7 @@
  .logoImg {
     display: flex;
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 1;
+    flex-basis: 0;
     flex-shrink: 1;
     min-width: 15vw;
     min-height: 15vh;
@@ -108,7 +107,7 @@
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0;
-    min-width: 15vw;
+    width: 15vw;
     min-height: 45vh;
   }
 
@@ -117,7 +116,7 @@
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 0;
-    min-width: 15vw;
+    width: 15vw;
     min-height: 20vh;
   }
 
@@ -233,10 +232,10 @@
 .middle{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    min-width: 65vw;
+    width: 65vw;
     flex-grow: 12;
     flex-shrink: 1;
     flex-basis: 0;
@@ -268,7 +267,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     min-height: 30vh;
-    min-width: 65vw;
+    width: 60vw;
     flex-basis: 1;
     margin: 10px;
     padding: 20px;
@@ -278,9 +277,13 @@
 }
 
 .cardTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 2em;
     font-weight: 400;
     min-width: 25vw;
+
     /* -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(157, 155, 151); */
@@ -304,10 +307,11 @@
     display: flex;
     flex-basis: 1;
     flex-shrink: 1;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 0px;
+    /* padding: 10px; */
     /* min-width: 300px; */
-    min-width: 30vw;
+    min-width: 20vw;
+    min-height: 30vh;
     border-radius: 5%;
 
 }
